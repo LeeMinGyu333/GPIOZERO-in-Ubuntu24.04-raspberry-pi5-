@@ -2,6 +2,7 @@
 
 sudo apt update
 sudo apt install python3-gpiozero
+pip install gpiozero
 
 # NOW we have a test code in this repository.
 # Just send this python file to your Pi and use it in Terminal
