@@ -2,7 +2,15 @@
 
 sudo apt update
 sudo apt install python3-gpiozero
-pip install gpiozero
+(venv) pip install gpiozero
+
+# give the authorize to gpio group
+sudo groupadd gpio
+sudo usermod -aG gpio username
+sudo reboot
+
+# if u want to check this change.
+groups username
 
 # NOW we have a test code in this repository.
 # Just send this python file to your Pi and use it in Terminal
