@@ -3,6 +3,7 @@
 sudo apt update
 sudo apt install python3-gpiozero
 (venv) pip install gpiozero
+pip install lgpio --break-system-packages  # or env
 
 # give the authorize to gpio group
 sudo groupadd gpio
