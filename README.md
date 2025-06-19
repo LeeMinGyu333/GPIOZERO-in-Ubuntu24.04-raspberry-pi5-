@@ -17,3 +17,5 @@ groups username
 # Just send this python file to your Pi and use it in Terminal
 
 sudo python3 zerg2.py
+
+산딸기 렛ㄱㄱ
